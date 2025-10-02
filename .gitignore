@@ -32,3 +32,6 @@ Thumbs.db
 # Output / temporary files
 *.bak
 *.tmp
+
+# Ignore virtual environment directory
+.venv/
