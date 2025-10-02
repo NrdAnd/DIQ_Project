@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+.history/
+
+# Output / temporary files
+*.bak
+*.tmp
