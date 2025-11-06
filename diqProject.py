@@ -74,12 +74,13 @@ def data_profiling_extended(df: pd.DataFrame) -> None:
     })
     print(dtypes_df.to_string(index=False)); print()
 
+    """
+    #This part has been commented since must require some reasonings all together
+
     # Numeric statistics
     num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
     if num_cols:
-
-        #This part has been commented since must be some reasonings made on it all together
-        """
+    
         _sub("Numeric columns – describe()")
         print(df[num_cols].describe(percentiles=[.01,.05,.25,.5,.75,.95,.99]).T.to_string())
         print()
@@ -105,7 +106,7 @@ def data_profiling_extended(df: pd.DataFrame) -> None:
             outlier_counts[c] = int(((s < lower) | (s > upper)).sum())
         print(pd.Series(outlier_counts, name="outliers").to_string())
         print()
-        """
+    """
 
     # String / categorical profiling
     obj_cols = df.select_dtypes(include=["object"]).columns.tolist()
