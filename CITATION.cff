@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this academic project when using its analysis or results. See DATA.md for separate third-party data attribution."
+type: software
+title: "DIQ Project 2025–2026: Data Quality of Milano Public Establishments"
+authors:
+  - family-names: Nardi
+    given-names: Andrea
+  - family-names: Pesaturo
+    given-names: Christian Giovanni
+  - family-names: Pinessi
+    given-names: Andrea
+repository-code: "https://github.com/NrdAnd/DIQ_Project"
+license: MIT
+abstract: >-
+  Academic data quality pipeline for a supplied historical snapshot of Milano
+  public establishments: profiling, normalization, imputation, record linkage,
+  data fusion, anomaly flagging, and exploratory KNN and XGBoost experiments.

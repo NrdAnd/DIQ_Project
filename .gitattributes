@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.pdf binary
+# Preserve the supplied CSV bytes and their SHA-256 on every platform.
+*.csv -text

@@ -1,0 +1,15 @@
+{
+  "raw_sha256": "1e343a143fa03e18af559d2667c30484aaeaf3e6e7eb6b9ec1df96a0b1e5fa7c",
+  "source": "archive/DIQ_Project25_26_v5.original.ipynb",
+  "original_cell_index": 93,
+  "lookup_date": null,
+  "note": "Cached Nominatim responses for the address-reconciliation step. Responses without a Municipio token use the existing ZD value.",
+  "attribution": "Geocoding data © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright",
+  "responses": {
+    "PIAZZALE LOTTO LORENZO Milano": "Piazzale Lotto, Piazzale Lorenzo Lotto, De Angeli - Monte Rosa, QT8, Municipio 8 di Milano, Milano, Lombardia, 20148, Italia",
+    "VIA MONTE ROSA Milano": "Via Monte Rosa, De Angeli - Monte Rosa, Tre Torri, Municipio 8 di Milano, Milano, Lombardia, 20149, Italia",
+    "VIA GOLDONI CARLO Milano": "Via Carlo Goldoni, Zona Industriale Via Carlo Goldoni, Trezzano sul Naviglio, Milano, Lombardia, 20090, Italia",
+    "VIA LAMBRUSCHINI RAFFAELE Milano": "Milano Villapizzone, Via Raffaele Lambruschini, Villapizzone, Municipio 8 di Milano, Milano, Lombardia, 20156, Italia",
+    "VIA TRAIANO MARCO ULPIO Milano": "Centro Prove Autoveicoli di Milano, 40, Via Marco Ulpio Traiano, Cagnola, Portello, Municipio 8 di Milano, Milano, Lombardia, 20149, Italia"
+  }
+}

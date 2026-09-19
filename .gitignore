@@ -1,37 +1,27 @@
-# Byte-compiled / optimized / DLL files
+# Python and local environments
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Virtual environment
-.env
-.venv
-env/
+.venv/
 venv/
+env/
 ENV/
+.env
+.env.*
+!.env.example
 .envrc
+.python-version.local
+.ipynb_checkpoints/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# macOS / Linux system files
+# Machine-specific files
 .DS_Store
 Thumbs.db
-
-# Python cache
-*.pyo
-*.pyd
-
-# Logs
-*.log
-
-# VS Code settings
 .vscode/
+.idea/
 .history/
-
-# Output / temporary files
+*.log
 *.bak
 *.tmp
 
-# Ignore virtual environment directory
-.venv/
+# Generated results and local backups
+/generated/
+/.local-backup/
